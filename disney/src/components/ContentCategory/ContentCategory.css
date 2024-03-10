@@ -1,0 +1,49 @@
+/* Home.css */
+
+.home-container {
+    padding: 20px;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .movie-card {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+  }
+    
+
+  .card:hover {
+scale: 1.1;
+transition: 0.5s;
+  }
+
+.navBar:hover { 
+  text-decoration: underline;
+  }
+
+  .mr-auto {
+    text-decoration: underline;
+  }
+
+  .movie-card:hover {
+    scale: 1.1;
+    transition: 0.3s;
+  }
