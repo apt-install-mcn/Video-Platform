@@ -31,16 +31,6 @@ Una vez que la aplicación esté en funcionamiento, puedes iniciar sesión con t
 ¡Siéntete libre de contribuir a este proyecto! Puedes abrir problemas para reportar errores, sugerir nuevas características o enviar solicitudes de extracción con mejoras.
 
 ## Licencia
-
-
-
-
-
-
-
-
-
-
 ----------------------------------------------------------------
 # Getting Started with Create React App
 

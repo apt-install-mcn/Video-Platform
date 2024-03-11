@@ -35,9 +35,7 @@ scale: 1.1;
 transition: 0.5s;
   }
 
-.navBar:hover { 
-  text-decoration: underline;
-  }
+
 
   .mr-auto {
     text-decoration: underline;

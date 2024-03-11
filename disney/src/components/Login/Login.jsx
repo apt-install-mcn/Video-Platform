@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Navigate } from 'react-router-dom';
-import './Login.css';
+import './Login.css'; // Importa tu archivo CSS donde se define el estilo del login
 import { Button, Form } from 'react-bootstrap';
 
 const Login = () => {
@@ -32,31 +32,32 @@ const Login = () => {
     }
 
     return (
-        <div className="login-container">
-            <h2>Iniciar Sesión</h2>
-            <Form onSubmit={handleSubmit}>
-                <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Correo Electrónico:</Form.Label>
-                    <Form.Control type="email" placeholder="Ingrese su correo electrónico" value={email} onChange={handleEmailChange} required />
-                </Form.Group>
+        <div className="login-page">
+            <div className="login-container">
+                <h2>Iniciar Sesión</h2>
+                <Form onSubmit={handleSubmit}>
+                    <Form.Group controlId="formBasicEmail">
+                        <Form.Label>Correo Electrónico:</Form.Label>
+                        <Form.Control type="email" placeholder="Ingrese su correo electrónico" value={email} onChange={handleEmailChange} required />
+                    </Form.Group>
 
-                <Form.Group controlId="formBasicPassword">
-                    <Form.Label>Contraseña:</Form.Label>
-                    <Form.Control type="password" placeholder="Ingrese su contraseña" value={password} onChange={handlePasswordChange} required />
-                </Form.Group>
+                    <Form.Group controlId="formBasicPassword">
+                        <Form.Label>Contraseña:</Form.Label>
+                        <Form.Control type="password" placeholder="Ingrese su contraseña" value={password} onChange={handlePasswordChange} required />
+                    </Form.Group>
 
-                <Button variant="primary" type="submit">
-                    Iniciar Sesión
-                </Button>
-            </Form>
+                    <Button variant="primary" type="submit">
+                        Iniciar Sesión
+                    </Button>
+                </Form>
 
-            <div className="additional-options">
-                <p><a href="#">Crear cuenta</a></p>
-                <p><a href="#">Olvidé mi contraseña</a></p>
+                <div className="additional-options">
+                    <p><a href="#">Crear cuenta</a></p>
+                    <p><a href="#">Olvidé mi contraseña</a></p>
+                </div>
             </div>
         </div>
     );
 };
 
 export default Login;
-    
